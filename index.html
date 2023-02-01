@@ -8,11 +8,24 @@
     nav li .a{
         color: blue !important;
     }
+    table tr a{
+       text-decoration: none;
+    }
   
 </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light"> <div class="container-fluid"> <a class="navbar-brand" href="#">SG</a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse" id="navbarSupportedContent"> <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a> </li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
+        <div class="container-fluid"> 
+            <a class=" btn text-dark navbar-toggler disabled" style="border: none;" href="#">SG</a> 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+                <span class="navbar-toggler-icon"></span> 
+            </button> 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
+                    <li class="nav-item"> 
+                        <a class="nav-link active" aria-current="page" href="#">Home</a> 
+                    </li>
          <li class="nav-item"> 
             <a class="nav-link active a" href="#"> Features</a> 
         </li> 
@@ -245,7 +258,15 @@
                          Bootstrap Form
                      </div>
                      
-                     <div class="m-3"><div class="row g-3"> <div class="col"> <input type="text" class="form-control " placeholder="First name" aria-label="First name"> </div> <div class="col"> <input type="text" class="form-control" placeholder="Last name" aria-label="Last name"> </div> </div>
+                     <div class="m-3">
+                        <div class="row g-3 flex flex-column flex-md-row"> 
+                            <div class="col"> 
+                                <input type="text" class="form-control " placeholder="First name" aria-label="First name"> 
+                            </div> 
+                     <div class="col"> 
+                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name"> 
+                    </div> 
+                </div>
                      <div class="mb-3 mt-3"> <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Email"> </div>
                       <div class="mb-3"> <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Password"> </div>
                       <div class="mb-3"> <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Confirm Password"> </div>
